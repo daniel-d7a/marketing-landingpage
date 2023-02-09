@@ -25,7 +25,7 @@ export default function Navbar() {
         }}
       />
 
-      <ul className="text-sky-900 capitalize font-bold flex gap-4 text-lg">
+      <ul className="text-sky-900 capitalize font-bold md:flex gap-4 text-lg hidden ">
         <li className="text-center border-transparent border-b-2 transition-all p-2 hover:border-sky-900">
           <a href="#home">Home</a>
         </li>
