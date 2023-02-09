@@ -15,7 +15,7 @@ export default function About() {
       <section
         id="home"
         ref={carousel}
-        className="w-full md:h-[50vh] pt-10 flex overflow-auto snap-x"
+        className="w-full md:h-[50vh] pt-10 flex md:overflow-x-hidden overflow-auto snap-x"
       >
         <div className="p-6 flex-shrink-0 w-[100vw] snap-start md:flex md:flex-row-reverse justify-center items-center md:px-10">
           <img src={img1} className="w-2/3 m-auto md:w-1/3" />
